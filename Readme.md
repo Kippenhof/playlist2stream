@@ -10,8 +10,8 @@ Nothing is here yet.
 
 ## TODO
 
-[ ] Create Web-App
-[ ] Intigrate Player (Playr.js)
-[ ] Create Backend (Shuffles the Videos Pulled From Youtube and Own/Other Creatives)
-[ ] Create Graphics & Select Colors
-[ ] Deploy to Github Pages
+- [ ] Create Web-App
+- [ ] Intigrate Player (Playr.js)
+- [ ] Create Backend (Shuffles the Videos Pulled From Youtube and Own/Other Creatives)
+- [ ] Create Graphics & Select Colors
+- [ ] Deploy to Github Pages
