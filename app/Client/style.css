@@ -1,0 +1,9 @@
+.container {
+	margin: 10px auto;
+	max-width: 1400px;
+}
+h1 {
+	font-family: 'Spartan', sans-serif;
+	text-align: center;
+	font-weight: 300;
+}
