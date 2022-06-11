@@ -1,3 +1,5 @@
+![Logo](./assets/main-tp.png)
+
 # What is this about
 
 I've Created an Random playlist which i want to Pull it in Random order to a Web-Frontend, and Distribute it via Playr.js . I'll use it just internally, but you can use it for what you want.
