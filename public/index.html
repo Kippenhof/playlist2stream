@@ -4,12 +4,34 @@
     <link rel="Icon", href="/public/assets/icons/favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="/public/assets/bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,Array.prototype.includes,CustomEvent,Object.entries,Object.values,URL"></script>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+
 </head>
 <body>
-    <div class="nav-bar"></div>
     <div class="container">
-        <div class="jumbotron">
-            <h2>res.sendFile() Works!</h2>
-        </div>
+        <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="ipiNzpQNmAw" style="--plyr-color-main: #392d78;"></div>
     </div>
+
+    <script src="https://unpkg.com/plyr@3/dist/plyr.min.js"></script>
+    <script>
+        // Change "{}" to your options:
+        // https://github.com/sampotts/plyr/#options
+        const player = new Plyr('#player', {
+            volume: 0.2,
+            youtube: {
+                noCookie: true
+            }
+        });
+        window.player = player;
+        player.play();
+    </script>
+    <style>
+        .container {
+            margin: auto;
+            width: 50%;
+            padding: 5%;    
+        }
+    </style>
 </body>
