@@ -13,8 +13,12 @@ I've Created an Random playlist which i want to Pull it in Random order to a Web
 
 ## TODO
 
-- [ ] Create Web-App
-- [ ] Intigrate Player (Playr.js)
+- [X] Initialized API (Invidus)
+- [X] Initialized Web-App
+- [X] Intigrate Player (Playr.js)
+- [ ] Basic Server <-> Client Communication using express
 - [ ] Create Backend (Shuffles the Videos Pulled From Youtube and Own/Other Creatives)
+- [ ] Create Full Front-End App
 - [ ] Create Graphics & Select Colors
 - [ ] Deploy to Github Pages
+- [ ] Storage in Cookies, User Accounts [OAuth] . . .
