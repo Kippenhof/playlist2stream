@@ -1,7 +1,8 @@
 <template>
+    
     <ul>
         <!--test in Funktion umwandeln und diese zum prüfen des Playing States nutzen -->
-        <li v-for="video in playlist" :key="video.title"> {{ video.title }} <button @click="setPlayingStatus(video.id, playlist)"> YES </button> </li>
+        <li v-for="video in playlist" :key="video.title"> {{ video.title }} <button @click="setPlayingStatus(video.id, playlist)"> YES </button> {{ video.playing }} </li>
     </ul>
 </template>
 <script>
@@ -12,7 +13,8 @@
         return {
           playlist: [
             {id: 1, title: 'Me at the Zoo', playing: false},
-            {id: 2, title: 'Gerhardt Warmduscher', playing: true}
+            {id: 2, title: 'Gerhardt Warmduscher', playing: true},
+            {id: 3, title: 'Joachim Gönnideck', playing: false}
           ]
         }
     },

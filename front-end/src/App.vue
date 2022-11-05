@@ -3,6 +3,7 @@
 <!--    <img alt="Vue logo" src="./assets/logo.png"> -->
 <!--    <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 <!--    <Player /> -->
+    <VueSearch />
     <VuePlaylist />
   </div>
   
@@ -11,15 +12,16 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import VuePlaylist from './components/Playlist.vue'
+import VueSearch from './components/Search.vue';
 // import Player from '.components/Player.vue'
 
 export default {
   name: 'App',
   components: {
-//    HelloWorld,
+    //    HelloWorld,
     VuePlaylist,
-//    Player
-  }
+    VueSearch,
+}
 }
 </script>
 
